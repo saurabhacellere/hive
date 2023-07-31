@@ -1,0 +1,70 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28300\viewh17700\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 version: 1\
+## Please visit https://docs.embold.io/v2-quick-start-guide/#update-configurations to know more\
+languages: 'CSS'\
+# Sources mention which Files/Dirs to be taken for Analysis\
+sources:\
+  #Files or Directories to be Excluded are mentioned in exclusions\
+  exclusions:\
+    - 'test'\
+    - 'generated'\
+    - 'mock'\
+    - 'thirdparty'\
+    - 'third-party'\
+    - '3rd-party'\
+    - '3rdparty'\
+    - 'external'\
+    - 'build'\
+    - 'node_modules'\
+    - 'assets'\
+    - 'gulp'\
+    - 'grunt'\
+    - 'library'\
+    - 'libs'\
+    - '.git'\
+    - '.sln'\
+    - 'demosubproject'\
+\
+#Specify modules you would like to enable or disable.\
+#modules:\
+ #   - name: gamma_java\
+ #     enabled: true\
+ #     rules:\
+ #        - key: 'EMB-JAVA-23'\
+ #          enabled: false\
+ #        - key: 'EMB-JAVA-75'\
+ #          enabled: false\
+ #        - key: 'EMB-JAVA-16'\
+ #          enabled: false\
+ #        - key: 'EMB-JAVA-15'\
+ #          enabled: false\
+ #        - key: 'EMB-JAVA-44'\
+ #          enabled: false\
+ #        - key: 'EMB-JAVA-19'\
+ #          enabled: false\
+ #        - key: 'EMB-JAVA-14'\
+ #          enabled: false\
+ #        - key: 'EMB-JAVA-10'\
+ #          enabled: false\
+ #        - key: 'EMB-JAVA-41'\
+ #          enabled: false\
+ #        - key: 'EMB-JAVA-79'\
+ #          enabled: false\
+ #          \
+ #   - name: pmd\
+ #     enabled: true\
+ #     rules:\
+ #         - key: 'PMD-JAVA-51'\
+ #           enabled: false\
+ #         - key: 'PMD-APEX-308'\
+ #           enabled: false\
+ #         - key: 'PMD-APEX-248'\
+ #           enabled: false\
+## Please visit https://docs.embold.io/v2-quick-start-guide/#update-configurations to know more\
+}
